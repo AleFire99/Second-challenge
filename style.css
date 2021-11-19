@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-size: 18px;
+  background-color: #0d192b;
+  font-family: "Outfit", sans-serif;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
