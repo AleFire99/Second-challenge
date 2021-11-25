@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-size: 18px;
+  background-color: #0d192b;
+  font-family: "Outfit", sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #14253d;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 3em;
+  width: 80%;
+  border-radius: 10px;
+  align-items: center;
+}
+.container > * {
+  margin: 1em 1em;
+  width: 80%;
+}
+.container #cube {
+  aspect-ratio: 1;
+  border-radius: 10px;
+}
+.container #cube:hover {
+  filter: url(/images/icon-view.svg);
+  cursor: pointer;
+  background: #00fff7;
+  color: white;
+}
+.container .code {
+  font-weight: 600;
+  text-align: left;
+}
+.container .phrase {
+  margin-top: 0.5em;
+  color: #8bacda;
+  text-align: left;
+  font-weight: 300;
+}
+.container .value {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .value .crypto {
+  color: #00fff7;
+}
+.container .value .time {
+  color: #8bacda;
+  font-weight: 300;
+}
+.container .author {
+  margin-top: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .author img {
+  height: 2em;
+  box-shadow: 0 0 0 1px white;
+  border-radius: 50%;
+}
+.container .author p {
+  color: #8bacda;
+  font-weight: 400;
+}
+
+hr {
+  color: #8bacda;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: white;
+  font-family: inherit;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  color: #00fff7;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 20em;
+  }
+}/*# sourceMappingURL=style.css.map */
