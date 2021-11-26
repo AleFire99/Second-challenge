@@ -30,20 +30,35 @@ body {
   width: 80%;
   border-radius: 10px;
   align-items: center;
+  /*  .wrapper{
+        position: relative;
+        border: solid;
+        width: 80%;
+        align-items: center;
+
+        .overlay{
+            background: $Cyan;
+            position: absolute;
+            border: solid;
+            width: 5%;
+            left: 0;
+
+        }
+
+
+    }*/
 }
 .container > * {
   margin: 1em 1em;
   width: 80%;
 }
 .container #cube {
+  width: 50%;
   aspect-ratio: 1;
   border-radius: 10px;
 }
 .container #cube:hover {
-  filter: url(/images/icon-view.svg);
   cursor: pointer;
-  background: #00fff7;
-  color: white;
 }
 .container .code {
   font-weight: 600;
@@ -61,6 +76,10 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  border-bottom: solid 0.5px #8bacda;
+}
+.container .value > * {
+  margin-bottom: 1em;
 }
 .container .value .crypto {
   color: #00fff7;
@@ -102,7 +121,7 @@ button:hover {
   color: #00fff7;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 450px) {
   .container {
     width: 20em;
   }

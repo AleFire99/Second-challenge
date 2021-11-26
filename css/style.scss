@@ -39,15 +39,32 @@ body{
     }
 
     #cube{
+        width: 50%;
         aspect-ratio: 1;
         border-radius: 10px;
         &:hover{
-            filter: url(/images/icon-view.svg); //! Not working
             cursor: pointer;
-            background: $Cyan;
-            color: white;
         }
     }
+
+  /*  .wrapper{
+        position: relative;
+        border: solid;
+        width: 80%;
+        align-items: center;
+        
+        .overlay{
+            background: $Cyan;
+            position: absolute;
+            border: solid;
+            width: 5%;
+            left: 0;
+
+        }
+    
+        
+    }*/
+
 
     .code{
         //border: solid;
@@ -68,6 +85,11 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        border-bottom: solid 0.5px $Soft-blue;
+
+        >*{
+            margin-bottom: 1em;
+        }
 
         .crypto{
             color: $Cyan;
@@ -117,7 +139,7 @@ button{
     }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 450px){
     .container{
         width: 20em;
     }
