@@ -39,31 +39,34 @@ body{
     }
 
     #cube{
-        width: 50%;
-        aspect-ratio: 1;
         border-radius: 10px;
+        width: 100%;
         &:hover{
             cursor: pointer;
+            opacity: 20%;
         }
     }
 
-  /*  .wrapper{
+   .wrapper{
         position: relative;
-        border: solid;
-        width: 80%;
-        align-items: center;
-        
-        .overlay{
-            background: $Cyan;
-            position: absolute;
-            border: solid;
-            width: 5%;
-            left: 0;
+    }
 
+    .cover{
+        top: 0;
+        left: 0;
+        width: 20%;
+        padding: 6.4em;
+        border-radius: 10px;
+        position: absolute;
+        background: $Cyan;
+        z-index: 0;
+        opacity: 0;
+
+        &:hover{
+            opacity: 60%;
+            transition: all 0.2s ease-in-out;
         }
-    
-        
-    }*/
+    }
 
 
     .code{

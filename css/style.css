@@ -30,35 +30,36 @@ body {
   width: 80%;
   border-radius: 10px;
   align-items: center;
-  /*  .wrapper{
-        position: relative;
-        border: solid;
-        width: 80%;
-        align-items: center;
-
-        .overlay{
-            background: $Cyan;
-            position: absolute;
-            border: solid;
-            width: 5%;
-            left: 0;
-
-        }
-
-
-    }*/
 }
 .container > * {
   margin: 1em 1em;
   width: 80%;
 }
 .container #cube {
-  width: 50%;
-  aspect-ratio: 1;
   border-radius: 10px;
+  width: 100%;
 }
 .container #cube:hover {
   cursor: pointer;
+  opacity: 20%;
+}
+.container .wrapper {
+  position: relative;
+}
+.container .cover {
+  top: 0;
+  left: 0;
+  width: 20%;
+  padding: 6.4em;
+  border-radius: 10px;
+  position: absolute;
+  background: #00fff7;
+  z-index: 0;
+  opacity: 0;
+}
+.container .cover:hover {
+  opacity: 60%;
+  transition: all 0.2s ease-in-out;
 }
 .container .code {
   font-weight: 600;
