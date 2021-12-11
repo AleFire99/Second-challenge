@@ -58,6 +58,7 @@ body {
   opacity: 0;
 }
 .container .cover:hover {
+  cursor: pointer;
   opacity: 60%;
   transition: all 0.2s ease-in-out;
 }

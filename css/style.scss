@@ -63,6 +63,7 @@ body{
         opacity: 0;
 
         &:hover{
+            cursor: pointer;
             opacity: 60%;
             transition: all 0.2s ease-in-out;
         }
